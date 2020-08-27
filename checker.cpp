@@ -1,7 +1,7 @@
 #include <assert.h>
 
 bool isInRange(float value,int lowerLimit,int upperLimit){
-return (value>=lowerLimit||value<=upperLimit);
+return (value>=lowerLimit && value<=upperLimit);
 }
 
 bool vitalsAreOk(float bpm, float spo2, float respRate) {
